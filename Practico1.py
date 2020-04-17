@@ -4,7 +4,7 @@ import random
 def adivinar(chosenNumber):
     number = random.randint(0, 100)
 
-    print('{0}.'.format(number))
+   # print('{0}.'.format(number))
     count = 0
     while True:
 
