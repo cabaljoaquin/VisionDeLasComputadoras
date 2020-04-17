@@ -24,8 +24,8 @@ def ScalateEuclideanTransformation(image, angle, tx, ty, scale):
     return resultEuclidianTranformation
 
 
-cv2.imshow('Imagen_euclidiana.png', ScalateEuclideanTransformation(ImgTest, 180, 20, 20, 2))
-cv2.imwrite('Imagen_euclidiana.png', ScalateEuclideanTransformation(ImgTest, 180, 20, 20, 2))
+cv2.imshow('ScalatedImagen_euclidiana.png', ScalateEuclideanTransformation(ImgTest, 180, 20, 20, 2))
+cv2.imwrite('ScalatedImagen_euclidiana.png', ScalateEuclideanTransformation(ImgTest, 180, 20, 20, 2))
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 
