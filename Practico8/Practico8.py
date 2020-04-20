@@ -54,7 +54,7 @@ while 1:
                                                                             AddChosenImg.shape[0]))
 
     #pedazos de codigo sacado de :https://docs.opencv.org/master/d0/d86/tutorial_py_image_arithmetics.html
-        test = cv2.imread('arqueroFinal.jpg', cv2.IMREAD_COLOR)
+        test = cv2.imread('arqueroFinal.jpg', 1)
         rows2, cols2, channels = test.shape
         Sticker = resultransformation[0:rows2, 0:cols2]
         img2gray = cv2.cvtColor(Sticker, cv2.COLOR_BGR2GRAY)
